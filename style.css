@@ -524,7 +524,7 @@ h3.notion-heading {
     color: var(--picker-text-color) !important;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 100%) {
   #page-index .notion-collection-gallery.large .notion-collection-card {
     flex-direction: column !important;
   }
