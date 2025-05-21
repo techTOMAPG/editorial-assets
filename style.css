@@ -303,11 +303,11 @@ h3.notion-heading {
   min-height: 420px !important;
   height: 420px !important;
 }
-@media screen and (max-width: 100%) {
+/* @media screen and (max-width: 100%) {
   .notion-collection-gallery.large .notion-collection-card {
     height: auto !important;
   }
-}
+} */
 .notion-collection-gallery.large .notion-collection-card .notion-property__title {
   font-size: 2.6rem !important;
   max-width: 600px !important;
