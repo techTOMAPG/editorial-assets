@@ -303,7 +303,7 @@ h3.notion-heading {
   min-height: 420px !important;
   height: 420px !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .notion-collection-gallery.large .notion-collection-card {
     height: auto !important;
   }
