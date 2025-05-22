@@ -180,3 +180,65 @@
   margin-bottom: 0rem !important;
   }
 }
+
+.notion-collection-list {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 12px !important;
+  padding: 0 !important;
+  margin-top: 8px !important;
+}
+
+/* Responsivo */
+@media (max-width: 700px) {
+  .notion-collection-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+.notion-collection-list .notion-collection-list__item {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  border: 1px solid var(--color-border-default, #e3e3e3) !important;
+  border-radius: 8px !important;
+  padding: 6px 3px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0;
+}
+
+/* >>> Esse é o segredo: Forçar qualquer conteúdo direto da célula a ocupar toda a largura <<< */
+.notion-collection-list .notion-collection-list__item > * {
+  width: 100% !important;
+  text-align: center !important;
+  margin: 0 !important;
+  float: none !important;
+  display: block !important;
+}
+
+.notion-collection-list .notion-property__title {
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.notion-collection-list .notion-property__title * {
+  font-weight: 700 !important;
+}
+
+.notion-collection-list .notion-property__title .notion-semantic-string {
+  white-space: pre-wrap !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.notion-collection-list .notion-property__title .notion-semantic-string span {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline !important;
+}
