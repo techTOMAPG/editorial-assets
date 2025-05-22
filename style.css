@@ -94,9 +94,11 @@
 /* Garante espaçamento entre propriedades, sem afetar o título */
 
 .notion-pill {
-  font-size: 0.75rem !important;
+  font-size: 0.8rem !important;
   border-radius: 50px !important;
-  padding: 4px 8px !important;
+  padding: 3px 6px !important;
+  background: var(--color-pill-default) !important;
+  color: var(--color-pill-text-default) !important;
 }
 
 .notion-collection-gallery.large .notion-collection-card .notion-collection-card__content::before {
@@ -145,7 +147,7 @@
 }
 
 /* Remove ícones dos relations */
-.notion-collection-gallery.large .notion-collection-card .notion-page__icon {
+.notion-collection-card .notion-page__icon {
   display: none !important;
 }
 
