@@ -1,14 +1,3 @@
-document.addEventListener('DOMContentLoaded', formatarDatasNoSite);
-
-let tentativas = 0;
-const maxTentativas = 15;
-const intervalo = setInterval(() => {
-  formatarDatasNoSite();
-  tentativas++;
-  if (tentativas >= maxTentativas) clearInterval(intervalo);
-}, 200);
-
-// Gallery carousel
 document.addEventListener("DOMContentLoaded", () => {
   const galleries = document.querySelectorAll(".notion-collection-gallery.large");
 
