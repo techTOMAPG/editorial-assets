@@ -19,7 +19,7 @@
   position: relative !important;
   grid-template-columns: 1fr !important;
   scrollbar-width: none !important;
-  height: 420px !important;
+  height: 540px !important;
   min-height: 420px !important;
   max-height: 600px !important;
 }
