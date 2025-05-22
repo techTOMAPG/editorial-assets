@@ -81,6 +81,7 @@
    ------------------------- */
 .notion-collection-gallery.large .notion-collection-card .notion-property__title {
   font-size: 2.6rem !important;
+  font-weight: 800 !important;
   max-width: 100% !important;
   line-height: 1.2 !important;
   margin-bottom: 0.5em !important;
@@ -90,6 +91,7 @@
 }
 .notion-collection-gallery.large .notion-collection-card .notion-property__title * {
   line-height: 1 !important;
+  font-weight: 800 !important;
 }
 
 /* -------------------------
