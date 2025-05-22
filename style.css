@@ -92,6 +92,26 @@
    ------------------------- */
 
 /* Garante espaçamento entre propriedades, sem afetar o título */
+
+.notion-pill {
+  font-size: 0.75rem !important;
+  border-radius: 50px !important;
+  padding: 4px 8px !important;
+}
+
+.notion-collection-gallery.large .notion-collection-card .notion-collection-card__content::before {
+  content: "Destaque" !important;
+  padding: 4px 8px !important;
+  font-size: 0.75rem !important;
+  background: var(--color-pill-default) !important;
+  color: var(--color-pill-text-default) !important;
+  border-radius: 50px !important;
+  display: inline-block !important;
+  margin-bottom: 16px !important;
+  width: fit-content !important;
+  border: 1px solid var(--color-border-default) !important;
+}
+
 .notion-collection-gallery.large .notion-collection-card .notion-property:not(.notion-property__title) {
   display: inline-flex !important;
   align-items: left !important;
@@ -119,6 +139,9 @@
 /* Tags/pills */
 .notion-collection-gallery.large .notion-collection-card .notion-pill {
   max-width: 100% !important;
+  display: inline-block !important;
+  margin-bottom: 16px !important;
+  width: fit-content !important;
 }
 
 /* Remove ícones dos relations */
