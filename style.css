@@ -2,6 +2,13 @@
 /* -----------------------------------------
    Notion Gallery Carrossel - Super.so
    ----------------------------------------- */
+.notion-collection-gallery .notion-property__title {
+  font-weight: 700 !important;
+}
+.notion-collection-gallery.small .notion-property__title * {
+  font-weight: 700 !important;
+}
+
 .notion-collection-gallery.large {
   display: flex !important;
   overflow-x: hidden !important;
@@ -76,7 +83,6 @@
   font-size: 2.6rem !important;
   max-width: 100% !important;
   line-height: 1.2 !important;
-  font-weight: 700 !important;
   margin-bottom: 0.5em !important;
   justify-content: center !important;
   display: block !important;
@@ -84,7 +90,6 @@
 }
 .notion-collection-gallery.large .notion-collection-card .notion-property__title * {
   line-height: 1 !important;
-  font-weight: 700 !important;
 }
 
 /* -------------------------
