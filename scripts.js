@@ -1,17 +1,3 @@
-
-function formatarDatasNoSite() {
-  document.querySelectorAll('.notion-date, .notion-property__date, [class*="date"]').forEach(function(el) {
-    const textoOriginal = el.innerText.trim();
-    // Evita rodar em elementos já formatados
-    if (!/^\d{2}\/\d{2}\/\d{4}$/.test(textoOriginal)) {
-      const data = new Date(textoOriginal);
-      if (!isNaN(data.getTime())) {
-        el.innerText = data.toLocaleDateString('pt-BR');
-      }
-    }
-  });
-}
-
 document.addEventListener('DOMContentLoaded', formatarDatasNoSite);
 
 let tentativas = 0;
